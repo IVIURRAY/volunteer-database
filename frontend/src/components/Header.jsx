@@ -51,7 +51,7 @@ const Footer = () => {
       </Grid>
       <Grid container xs={6} justify="flex-end" className={classes.login}>
         {loginIsOpen
-          ? <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" className={classes.large} />
+          ? <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
           : (
             <Button
               variant="contained"
